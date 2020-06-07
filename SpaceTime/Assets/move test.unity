@@ -121,6 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &84208897
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +242,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+>>>>>>> master
 --- !u!1 &212834250
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +254,11 @@ GameObject:
   m_Component:
   - component: {fileID: 212834251}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: move point
+=======
+  m_Name: Player Move point
+>>>>>>> master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,6 +278,7 @@ Transform:
   m_Father: {fileID: 1608112647}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &521632242
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +744,8 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+=======
+>>>>>>> master
 --- !u!1 &1608112645
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,11 +775,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d47b3cfbddbfc347baa8dd6ae205a9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   moveSpeed: 5
   movePoint: {fileID: 212834251}
   movementSTOP:
     serializedVersion: 2
     m_Bits: 256
+=======
+>>>>>>> master
 --- !u!4 &1608112647
 Transform:
   m_ObjectHideFlags: 0
@@ -778,7 +791,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608112645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 1.5, y: 1.5, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 212834251}
