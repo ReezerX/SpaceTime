@@ -65,6 +65,9 @@ MonoBehaviour:
   movementSTOP:
     serializedVersion: 2
     m_Bits: 0
+  EnchounterCombat:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &3339481644051735610
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +214,7 @@ GameObject:
   - component: {fileID: 8145971178419321650}
   m_Layer: 0
   m_Name: Player_Isometric_Witch
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -280,4 +283,7 @@ MonoBehaviour:
   movePoint: {fileID: 3339481643503506217}
   movementSTOP:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
+  EnchounterCombat:
+    serializedVersion: 2
+    m_Bits: 512

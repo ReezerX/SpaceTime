@@ -10,6 +10,7 @@ public float moveSpeed = 5f;
 public Transform movePoint;
 
     public LayerMask movementSTOP;
+    public LayerMask EnchounterCombat;
 
     // Start is called before the first frame update
     void Start()
@@ -39,5 +40,9 @@ public Transform movePoint;
                 };
             };
         };
+
+
     }
+   
+
 }
